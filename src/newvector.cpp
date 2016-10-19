@@ -38,7 +38,7 @@ float newvector::modifiervect(int indic, float val)
          vect[indic] = val;}
 }
 
-float* newvector::somme2vect(newvector v2)
+float* newvector::sommeDeVect(newvector v2)
 {
     if (t == v2.t)
     {
@@ -78,3 +78,4 @@ bool newvector::estegal(newvector v2)
     }
     return etat;
 }
+

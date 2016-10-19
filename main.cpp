@@ -48,10 +48,10 @@ int main()
     newvector v1(6), v2(6);
         for (int l=0; l< 6 ; l++){
             v1.modifiervect(l, l);
-            v2.modifiervect(l, l);
+            v2.modifiervect(l, l*2);
         }
         if (v1.estegal(v2)==0){
-            v1.somme2vect(v2);
+            v1.sommeDeVect(v2);
             for (int l=0; l<6; l++){
                 cout << v1.getelem(l) << " ";
             }
