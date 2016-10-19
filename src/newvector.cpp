@@ -38,13 +38,13 @@ float newvector::modifiervect(int indic, float val)
          vect[indic] = val;}
 }
 
-float* newvector::somme2vect(newvector v2)
+float* newvector::sommeDeVect(newvector v2)
 {
     if (t == v2.t)
     {
         for (int i=0; i <= t; i++){
-            float smm = this->getelem(i) + v2.getelem(i);
-            this->modifiervect(i, smm);
+            float sum = this->getelem(i) + v2.getelem(i);
+            this->modifiervect(i, sum);
         }
     }
 }
@@ -78,3 +78,4 @@ bool newvector::estegal(newvector v2)
     }
     return etat;
 }
+

@@ -51,7 +51,7 @@ int main()
             v2.modifiervect(l, l);
         }
         if (v1.estegal(v2)==0){
-            v1.somme2vect(v2);
+            v1.sommeDeVect(v2);
             for (int l=0; l<6; l++){
                 cout << v1.getelem(l) << " ";
             }
