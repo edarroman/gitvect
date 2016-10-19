@@ -14,6 +14,7 @@ class newvector
         float modifiervect(int indic, float val);
         float* somme2vect(newvector v2);
         float* supp1elem(int indic);
+        bool compare(newvector v2);
         int t;
     protected:
     private:

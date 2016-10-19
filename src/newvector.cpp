@@ -59,3 +59,22 @@ float* newvector::supp1elem(int indic)
         t = t-1;
     }
 }
+
+bool newvector::compare(newvector v2)
+{
+    bool etat = true;
+    if (t == v2.t)
+    {
+        for (int i=0; i <= t; i++){
+            if (this->getelem(i) != v2.getelem(i))
+            {
+                etat = false;
+            }
+        }
+    }
+    else
+    {
+    etat = false;
+    }
+    return etat;
+}

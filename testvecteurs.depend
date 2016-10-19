@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1476881205 source:/home/prof/Bureau/Julie/vecteur/gitvect/main.cpp
+	<iostream>
+	<string>
+	"newvector.h"
+
+1476881089 /home/prof/Bureau/Julie/vecteur/gitvect/include/newvector.h
+
+1476881246 source:/home/prof/Bureau/Julie/vecteur/gitvect/src/newvector.cpp
+	"newvector.h"
+
