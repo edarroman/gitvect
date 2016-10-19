@@ -42,7 +42,7 @@ float* newvector::somme2vect(newvector v2)
 {
     if (t == v2.t)
     {
-        for (int i=0; i <= t; i++){
+        for (int i=0; i < t; i++){
             float smm = this->getelem(i) + v2.getelem(i);
             this->modifiervect(i, smm);
         }
