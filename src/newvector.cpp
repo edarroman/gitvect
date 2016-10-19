@@ -60,12 +60,12 @@ float* newvector::supp1elem(int indic)
     }
 }
 
-bool newvector::compare(newvector v2)
+bool newvector::estegal(newvector v2)
 {
     bool etat = true;
     if (t == v2.t)
     {
-        for (int i=0; i <= t; i++){
+        for (int i=0; i <t; i++){
             if (this->getelem(i) != v2.getelem(i))
             {
                 etat = false;

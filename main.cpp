@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 // création et accés en lecture d'un vecteur
-
+/*
     int n; int e; string rep; float modif;
 
     cout << "Quelle est la taille de votre vecteur ? " ;
@@ -24,7 +24,7 @@ int main()
         }
     cout << "Element numero " << e << ": " << v.getelem(e) << endl;
 
-/*
+
     cout << "Voulez vous modifier le vecteur? [o/n]" ;
     cin >> rep;
     if (rep == "o"){
@@ -48,12 +48,14 @@ int main()
     newvector v1(6), v2(6);
         for (int l=0; l< 6 ; l++){
             v1.modifiervect(l, l);
-            v2.modifiervect(l, l*2);
+            v2.modifiervect(l, l);
         }
-
-        v1.somme2vect(v2);
-        for (int l=0; l<6; l++){
-            cout << v1.getelem(l) << " ";
+        if (v1.estegal(v2)==0){
+            v1.somme2vect(v2);
+            for (int l=0; l<6; l++){
+                cout << v1.getelem(l) << " ";
+            }
+            cout << " " << endl;
         }
 
 
@@ -69,9 +71,8 @@ int main()
 
         }
 */
-    cout << " " << endl;
-    cout << "Comparaison : " << endl;
-    cout << v1.compare(v2) << endl;
+
+
 
     return 0;
 }
