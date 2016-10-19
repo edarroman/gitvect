@@ -24,7 +24,7 @@ int main()
         }
     cout << "Element numero " << e << ": " << v.getelem(e) << endl;
 
-
+/*
     cout << "Voulez vous modifier le vecteur? [o/n]" ;
     cin >> rep;
     if (rep == "o"){
@@ -41,10 +41,10 @@ int main()
         cin >> modif;
         v.modifiervect(e, modif);
         cout << "Modification reussie" << endl;}
-
+*/
 
 //somme de deux vecteurs
-/*
+
     newvector v1(6), v2(6);
         for (int l=0; l< 6 ; l++){
             v1.modifiervect(l, l);
@@ -55,7 +55,7 @@ int main()
         for (int l=0; l<6; l++){
             cout << v1.getelem(l) << " ";
         }
-*/
+
 
 //Suppression d'un élément du vecteur
  /*   newvector v(6);
@@ -69,6 +69,9 @@ int main()
 
         }
 */
+    cout << " " << endl;
+    cout << "Comparaison : " << endl;
+    cout << v1.compare(v2) << endl;
 
     return 0;
 }
