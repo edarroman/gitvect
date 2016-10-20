@@ -16,6 +16,7 @@ class newvector
         float* supp1elem(int indic);
         bool estegal(newvector v2);
         int t;
+        float sumelem();
     protected:
     private:
         float *vect;

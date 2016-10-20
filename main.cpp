@@ -44,7 +44,7 @@ int main()
 */
 
 //somme de deux vecteurs
-
+/*
     newvector v1(6), v2(6);
         for (int l=0; l< 6 ; l++){
             v1.modifiervect(l, l);
@@ -58,7 +58,7 @@ int main()
             cout << " " << endl;
         }
 
-
+*/
 //Suppression d'un élément du vecteur
  /*   newvector v(6);
     for (int l=0; l < v.t ; l++){
@@ -72,6 +72,12 @@ int main()
         }
 */
 
+// Somme des éléments
+     newvector v(6);
+    for (int l=0; l < v.t ; l++){
+            v.modifiervect(l, l);
+        }
+    cout << v.sumelem() << endl;
 
 
     return 0;

@@ -79,3 +79,12 @@ bool newvector::estegal(newvector v2)
     return etat;
 }
 
+float newvector::sumelem()
+{
+    float sumel=0;
+    for (int i=0; i<t; i++)
+    {
+        sumel=sumel+ this->getelem(i);
+    }
+    return sumel;
+}
